@@ -1,0 +1,29 @@
+---
+import "../styles/global.css";
+import "animate.css";
+import "font-awesome/css/font-awesome.min.css";
+---
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Site | Astro</title>
+</head>
+<body class="min-h-scren bg-gray-50 text-gray-800">
+    <header class="p-4 bg-indigo-600 text-white text-center">
+        <h1 class="text-2xl font-semibold">
+            <i class="fa-solid fa-meteor"></i> My Project Astro
+        </h1>
+    </header>
+
+    <main class="p-8">
+        <slot />
+    </main>
+
+    <footer class="p-4 bg-indigo-600 text-white text-center">
+        &copy; 2025 - Created with Astro <i class="fa-solid fa-meteor"></i>
+    </footer>
+</body>
+</html>
