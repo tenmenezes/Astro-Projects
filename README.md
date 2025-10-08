@@ -1,1 +1,1 @@
-# Astro-Projects
+# Astro Projects
